@@ -1,0 +1,43 @@
+{
+  "name": "botyo-command-ping",
+  "version": "2.0.0-alpha.1",
+  "description": "Ping command for Botyo",
+  "keywords": [
+    "botyo",
+    "module",
+    "extension",
+    "command",
+    "ping"
+  ],
+  "main": "build/PingCommand.js",
+  "types": "build/PingCommand.d.ts",
+  "scripts": {
+    "prebuild": "rimraf build/",
+    "build": "tsc -p .",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivkos/botyo-command-ping.git"
+  },
+  "author": {
+    "name": "Ivaylo Stoyanov",
+    "email": "me@ivkos.com",
+    "url": "https://github.com/ivkos"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ivkos/botyo-command-ping/issues"
+  },
+  "homepage": "https://github.com/ivkos/botyo-command-ping#readme",
+  "dependencies": {
+    "botyo-api": "^2.0.0-alpha.14"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "typescript": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=6.5.0"
+  }
+}
