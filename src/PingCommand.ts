@@ -1,6 +1,6 @@
-import { CommandModule, FacebookId, Message } from "botyo-api";
+import { AbstractCommandModule, FacebookId, Message } from "botyo-api";
 
-export default class PingCommand extends CommandModule
+export default class PingCommand extends AbstractCommandModule
 {
     getCommand(): string
     {

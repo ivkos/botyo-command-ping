@@ -1,6 +1,6 @@
 {
   "name": "botyo-command-ping",
-  "version": "2.0.0-alpha.2",
+  "version": "2.0.0-alpha.3",
   "description": "Ping command for Botyo",
   "keywords": [
     "botyo",
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/ivkos/botyo-command-ping#readme",
   "dependencies": {
-    "botyo-api": "^2.0.0-alpha.14"
+    "botyo-api": "^2.0.0-alpha.31"
   },
   "devDependencies": {
     "rimraf": "^2.6.2",
